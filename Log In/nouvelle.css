@@ -1,0 +1,61 @@
+*{
+    margin: 10px;
+    padding: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background-image: url("luffy1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 800px;
+  height: 280px;
+  margin: 15px;
+
+}
+.welcome{
+    position: relative;
+    width: 200px;
+    height: 120px;
+    top: 5%;
+    bottom: 10%;
+    left: 95%;
+    color: darkorange;
+    padding: 80px 60px;
+        border-radius: 20px;
+    border: 2px solid ; 
+    background-color: orangered; 
+    animation-name: couleur;
+    animation-duration: 5s;
+
+}
+@keyframes couleur{
+    form{
+        background-color: blue;
+    }
+    25%{
+        background-color: rgb(13, 173, 34);
+
+    }
+    50%{
+       background-color: rgb(255, 0, 43);
+
+    }
+    75% {
+        background-color: rgb(177, 220, 20);
+       
+    }
+    to{
+        background-color: rgb(107, 47, 82);
+
+    }
+}
+.welcome p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    padding-top: 15px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+
+
+}
